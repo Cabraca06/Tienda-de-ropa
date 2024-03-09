@@ -1,0 +1,77 @@
+
+#img{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-image: url("/recursos/mediamodifier-elbKS4DY21g-unsplash.jpg");
+}
+
+.fondotext{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 36px;
+    background-color: black;
+    
+}
+.navegacion{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.navegacion > a{
+    text-decoration: none;
+    color: aliceblue;
+    width: 200px;
+    text-align: center;
+    padding: 3px;
+}
+.navegacion>a:hover{
+    background-color: rgb(180, 185, 32);
+    width: 200px;
+    height: 30px;
+}
+
+.seccion1{
+    width: 500px;
+    height: 400px;
+    margin-left: 70px;
+    padding: 30px;
+    
+}
+#title1{
+    text-align: left;
+    background-color: bisque;
+    width: 1200px;
+}
+.marca1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    font-size: 20px;
+    width: 1200px;
+    height: 300px;   
+}
+.marca1>p{
+    text-align: center;
+    margin-left: 20px;
+}
+
+#title2{
+    text-align: right;
+    background-color: bisque;
+    width: 1200px;
+    
+}
+.marca2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
+    height: 300px;
+    
+}
